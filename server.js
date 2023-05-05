@@ -4,8 +4,7 @@ const server = require("http").Server(app);
 const { v4: uuidv4 } = require("uuid");
 const io = require("socket.io")(server);
 const { ExpressPeerServer } = require("peer");
-//onst url = require("url");
-const url="https://ahmed-video-83xp81luf-mrsheikhhh.vercel.app/"
+const url = require("url")
 const peerServer = ExpressPeerServer(server, {
     debug: true,
 });
