@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server.js"
-    },
+    }, 
+    "proxy":"https://ahmed-video-83xp81luf-mrsheikhhh.vercel.app/",
     "keywords": [],
     "author": "",
     "license": "ISC",
