@@ -15,8 +15,8 @@ window.onload = () => {
 
 var peer = new Peer(undefined, {
     path: "/peerjs",
-    host: "/",
-    port: "3030",
+    host: "https://ahmed-video.vercel.app/",
+   port: "",
 });
 
 let myVideoStream;
@@ -117,7 +117,7 @@ const cancel = () => {
 
 const copy = async() => {
     const roomid = document.getElementById("roomid").innerText;
-    await navigator.clipboard.writeText("https://ahmed-video.vercel.app//join/" + roomid);
+    await navigator.clipboard.writeText("https://ahmed-video.vercel.app/join/" + roomid);
 };
 const invitebox = () => {
     $("#getCodeModal").modal("show");
